@@ -1,0 +1,17 @@
+CACHE MANIFEST
+/stylesheets/bootstrap.css
+/stylesheets/main.css
+/stylesheets/animations.css
+/javascripts/modernizr.min.js
+/javascripts/jquery.min.js
+/javascripts/jquery-ui.min.js
+/javascripts/bootstrap.js
+/javascripts/main.js
+/images/remember.svg
+/favicon.ico
+
+NETWORK:
+*
+
+FALLBACK:
+/ /offline.html

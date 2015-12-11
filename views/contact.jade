@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  section.
+    <div class="container">
+      <div class="row">
+        <div class="col-mid-4">
+          <!-- taken from bootsnip.com -->
+          <!-- http://bootsnipp.com/snippets/featured/get-in-touch -->
+          <form action="" method="post" class="form" data-toggle="validator">
+            <div class="get-in-touch hatch">
+              <h3 class="text-center">Get in Touch</h3>
+              <div class="form-group">
+                <div class="help-block with-errors"></div>
+                <input type="text" class="form-control" id="name" placeholder="Name" data-error="Please enter your name..." required/>
+              </div>
+              <div class="form-group">
+                <div class="help-block with-errors"></div>
+                <input type="email" class="form-control" id="email" placeholder="Email" data-error="Please enter your email..." required/>
+              </div>
+              <div class="form-group">
+                <div class="help-block with-errors"></div>
+                <textarea class="form-control" id="message" rows="3" placeholder="Message" data-error="Please enter a message..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger btn-sm btn-block" id="btnContactUs" role="button">Send it!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>

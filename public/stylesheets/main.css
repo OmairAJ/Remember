@@ -1,0 +1,63 @@
+body {
+	background-color: #EEEEEE;
+}
+.navbar-title {
+	font-size: 2.2em;
+	color: #f59c01;
+}
+.todolist {
+	background-color: #FFF;
+	padding: 20px 20px 10px 20px;
+	margin-top: 30px;
+	border-radius: 0.4em;
+}
+.todolist h2 {
+	margin: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.form-control {
+	border-radius: 0.2em;
+}
+li.ui-state-default {
+	background: #fff;
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+li.ui-state-default:last-child {
+	border-bottom: none;
+}
+.todo-footer {
+	background-color: #F4FCE8;
+	margin: 0 -20px -10px -20px;
+	padding: 10px 20px;
+}
+#done-items li {
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+	text-decoration: line-through;
+}
+#done-items li:last-child {
+	border-bottom: none;
+}
+#checkAll {
+	margin-top: 10px;
+}
+.get-in-touch {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 30px;
+	max-width: 370px;
+	border-radius: 2px;
+	background: rgb(255, 255, 255) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAGCAYAAACFIR03AAAAV0lEQVR42tXOMRWAQAwE0RWFDRTg5d47Jeg4Q9gI06RbqlwKil/P6LpXbDCf85AxEBtMGjKG/jyPUHUerfP4nEeoOo/Wedj5pOo8Wudh55Oq82idh51PLxpvled7kLAXAAAAAElFTkSuQmCC) repeat-x;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.get-in-touch input[type=text],.get-in-touch input[type=email], .get-in-touch textarea {
+	background: rgb(235, 241, 245);
+	color: rgb(36, 39, 41);
+}
+.get-in-touch  input:focus, .get-in-touch  textarea:focus {
+	outline: 0;
+	background: #FFF;
+}
